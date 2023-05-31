@@ -148,6 +148,8 @@ class _DashboardControllerState extends State<DashboardController> {
                                             isClicked = !isClicked;
                                             if (isClicked) {
                                               _vibrate();
+                                            } else {
+                                              _vibrate();
                                             }
                                             setState(() {});
                                           },
@@ -215,6 +217,8 @@ class _DashboardControllerState extends State<DashboardController> {
                                           onDoubleTap: () {
                                             isClicked2 = !isClicked2;
                                             if (isClicked2) {
+                                              _vibrate();
+                                            } else {
                                               _vibrate();
                                             }
                                             setState(() {});
